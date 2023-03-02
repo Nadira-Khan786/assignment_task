@@ -1,0 +1,12 @@
+/* global color variables  */
+html {
+  --primary: #19191b;
+  --border-color: #ddd;
+  --table-body: #fff;
+  --card-bg: #fff;
+  --table-head: #201733;
+  --text-primary: #fff;
+  --bg-secondary: #ebebeb;
+  --bg: #f2f2f2;
+  --font-family: "Roboto", sans-serif;
+}

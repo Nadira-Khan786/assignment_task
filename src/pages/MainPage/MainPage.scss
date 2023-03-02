@@ -1,0 +1,82 @@
+.main-ctn {
+  .tablist {
+    background-color: var(--table-head);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    .css-heg063-MuiTabs-flexContainer {
+      display: flex;
+      justify-content: center;
+      .tab {
+        color: var(--text-primary);
+      }
+      .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+        border-bottom: 1px solid var(--border-color) !important;
+      }
+    }
+  }
+  .css-13xfq8m-MuiTabPanel-root {
+    padding: 10px;
+  }
+  .tab-panel {
+    display: flex;
+    flex-direction: row;
+    .card-ctn {
+      background-color: var(--card-bg);
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      margin-left: 15px;
+      &.mt {
+        margin-top: 10px !important;
+      }
+      .title {
+        background-color: var(--table-head);
+        border-radius: 8px 8px 0px 0px;
+        border-bottom: 1px solid var(--border-color);
+        padding: 12px;
+        color: var(--text-primary);
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        svg{
+          margin-right: 5px;
+        }
+      }
+      .card-body1 {
+        padding: 0px;
+        border: 1px solid var(--border-color);
+      }
+      .card-body {
+        padding: 12px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .main-ctn {
+    .tablist {
+      background-color: var(--table-head);
+      .tab {
+        color: var(--text-primary);
+      }
+    }
+    .tab-panel {
+      display: flex;
+      flex-direction: column;
+      .card-ctn {
+        margin-left: 0px;
+        margin-top: 10px;
+        .title {
+          padding: 4px;
+          color: var(--text-primary);
+          font-size: 14px;
+        }
+        .card-body {
+          padding: 8px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
